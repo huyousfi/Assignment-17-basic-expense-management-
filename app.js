@@ -1,26 +1,4 @@
-const transactions =[
-    {
-        id:1,
-        name: "salary",
-        amount:5000,
-        date: new Date(),
-        type:"income"
-    },
-    {
-        id:2,
-        name: "haircut",
-        amount:20,
-        date: new Date(),
-        type:"expense"
-    },
-    {
-        id:3,
-        name: "concert ticket",
-        amount:350,
-        date: new Date(),
-        type:"expense"
-    },
-];
+const transactions =[];
 
 const formatter = new Intl.NumberFormat("en-US", {
     style:"currency",
